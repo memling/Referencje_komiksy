@@ -47,37 +47,52 @@
 </head>
   <body>
     <header>
-  <div class="collapse bg-dark" id="navbarHeader">
+  <div class="collapse bg-dark" id="navbarHeader_omnie">
     <div class="container">
       <div class="row">
         <div class="col-sm-8 col-md-7 py-4">
-          <h4 class="text-white">O mnie</h4>
-          <p class="text-white">Tomasz Stefan Mering - wejherowski twórca ilustracji, komiksów, animacji i projektant graficzny. Często porusza tematy historyczne, czerpie też inspiracje z literatury pięknej. Swoje prace prezentował na wystawach w Polsce i zagranicą. Były one również publikowane w prasie i nagradzane na konkursach. W 2016 roku opublikował fabularyzowany komiks historyczny "Las Piaśnicki" wydany przez Muzeum Piaśnickie w Wejherowie. Oprócz pracy twórczej prowadzi też autorskie warsztaty komiksowe. Należy do Związku Polskich Artystów Plastyków. Stypendysta Ministra Kultury i Dziedzictwa Narodowego.</p>
+          <h5 class="text-white">O mnie</h5>
+          <p class="text-white">Wejherowski twórca ilustracji, komiksów, animacji i projektant graficzny. Często porusza tematy historyczne, czerpie też inspiracje z literatury pięknej. Swoje prace prezentował na wystawach w Polsce i zagranicą. Były one również publikowane w prasie i nagradzane na konkursach. W 2016 roku opublikował fabularyzowany komiks historyczny "Las Piaśnicki" wydany przez Muzeum Piaśnickie w Wejherowie. Oprócz pracy twórczej prowadzi też autorskie warsztaty komiksowe. Należy do Związku Polskich Artystów Plastyków. Stypendysta Ministra Kultury i Dziedzictwa Narodowego.</p>s
+		</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="collapse bg-dark" id="navbarHeader_menu">
+  
+    <div class="container">
+      <div class="row">
+	  
+	  <div class="col-sm-8 col-md-7 py-4">
+          <h5 class="text-white"></h5>
+          <p class="text-white"></p>
         </div>
+	  
         <div class="col-sm-4 offset-md-1 py-4">
-          <h4 class="text-white">Moje projekty</h4>
+          <h5 class="text-white">Moje portfolio</h5>
           <ul class="list-unstyled">
-            <!--<li><a href="#" class="text-white">Follow on Twitter</a></li>-->
-            <li><a href="https://www.facebook.com/tomaszmeringart" target="_blank" class="text-white">Fb - Tomasz Mering art</a></li>
-            <li><a href="https://www.facebook.com/gagolkomiks" target="_blank" class="text-white">Fb - Ga-Goł - magazyn komiksowy</a></li>
-			<li><a href="https://www.facebook.com/basfeat" target="_blank" class="text-white">Fb - Moon Santa</a></li>
-			<!--<li><a href="#obrazy" class="text-white">Obrazy</a></li>-->
+            <li><a href="#komiksy" class="menu">Komiksy</a></li>
+			<li><a href="#ilustracje" class="menu">Ilustracje</a></li>	
+			<li><a href="#obrazy" class="menu">Malarstwo</a></li>	
+			<li><a href="#graficzne" class="menu">Projektowanie graficzne</a></li>	
+			<li><a href="#portrety" class="menu">Portrety</a></li>	
+			<li><a href="#karykatury" class="menu">Karykatury</a></li>
+			<li><a href="#scienne" class="menu">Malarstwo ścienne</a></li>
+			<li><a href="#3d" class="menu">Modele 3D</a></li>
+			<li><a href="#animacje" class="menu">Animacje</a></li>
           </ul>
         </div>
       </div>
+
     </div>
   </div>
   <div class="navbar navbar-dark bg-dark shadow-sm">
     <div class="container d-flex justify-content-between">
-      <a href="#" class="navbar-brand d-flex align-items-center">
-      <i class="fa fa-book"></i>
-        <!--
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
-        -->
-        <strong>&nbsp;Tomasz Mering - artysta wizualny</strong>
+      <a href="#" class="menu" data-toggle="collapse" data-target="#navbarHeader_omnie" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+			<h5 id="tm">Tomasz Mering - twórca wizualny</h5>
       </a>
-	  <!--<a href="#obrazy" class="text-white">Obrazy</a>-->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+	  
+      <button class="navbar-toggler" type="button" data-target="#navbarHeader_menu" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     </div>
