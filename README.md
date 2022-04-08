@@ -6,3 +6,5 @@ Testowy tekst do przećwiczenia commita!
 First branch.
 
 And third branch
+
+And fourth branch
